@@ -1,0 +1,23 @@
+# macOS and editor files
+.DS_Store
+._*
+Thumbs.db
+
+# Microsoft Office temporary files
+~$*
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local environment files
+.env
+.venv/
+venv/
+
+# Generated caches
+__pycache__/
+.quarto/
+.cache/
