@@ -31,13 +31,19 @@ The app supports:
 
 1. Open R or RStudio.
 2. Set the working directory to this case folder.
-3. Run the dashboard file:
+3. Install the required packages:
+
+```r
+source("requirements.R")
+```
+
+4. Run the dashboard file:
 
 ```r
 shiny::runApp("src")
 ```
 
-The script installs any missing R packages from CRAN before launching the app. I used `shiny`, `readxl`, `dplyr`, `ggplot2`, `DT`, `tidyr`, `scales`, and `shinythemes`.
+The app uses `shiny`, `readxl`, `dplyr`, `ggplot2`, `DT`, `tidyr`, `scales`, and `shinythemes`.
 
 ## Notes
 
