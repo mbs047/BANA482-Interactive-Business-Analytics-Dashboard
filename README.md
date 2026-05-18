@@ -1,4 +1,4 @@
-# BANA483 | Interactive Business Analytics Dashboard
+# BANA482 | Interactive Business Analytics Dashboard
 
 I built this case study as an R Shiny dashboard for a retail customer-experience dataset. The dashboard lets a manager upload an Excel workbook, review data quality, explore descriptive summaries, and compare business metrics across categories without writing code.
 
