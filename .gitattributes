@@ -1,0 +1,11 @@
+# Normalize text files
+* text=auto
+
+# Treat submitted artifacts as binary files
+*.docx binary
+*.pptx binary
+*.xlsx binary
+*.pdf binary
+*.png binary
+*.rds binary
+*.twb binary

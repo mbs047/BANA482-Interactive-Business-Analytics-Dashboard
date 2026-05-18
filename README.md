@@ -1,15 +1,16 @@
-# STAT 482 Case 7 - Interactive Business Analytics Dashboard
+# BANA483 | Interactive Business Analytics Dashboard
 
 I built this case study as an R Shiny dashboard for a retail customer-experience dataset. The dashboard lets a manager upload an Excel workbook, review data quality, explore descriptive summaries, and compare business metrics across categories without writing code.
 
 ## What I Am Sharing
 
-- `Deliverable/Dashboard.R` - the Shiny app source code.
-- `Deliverable/STAT482_case_report.pdf` - the final written report.
-- `Deliverable/STAT482_presentation.pdf` - the final presentation deck.
-- `Office Open XML spreadsheet.xlsx` - the Excel workbook used for the dashboard case.
-- `Screenshots/` - screenshots of the dashboard tabs and outputs.
-- `STAT482_case_report.docx` and `STAT482_presentation.pptx` - editable source files for the report and presentation.
+- `src/app.R` - the Shiny app source code.
+- `data/retail_customer_experience.xlsx` - the Excel workbook used for the dashboard case.
+- `deliverables/case7-report.pdf` - the final written report.
+- `deliverables/case7-presentation.pdf` - the final presentation deck.
+- `editable/` - editable source files for the report and presentation.
+- `assets/screenshots/` - screenshots of the dashboard tabs and outputs.
+- `references/` - assignment handouts and case instructions.
 
 ## Dashboard Focus
 
@@ -33,7 +34,7 @@ The app supports:
 3. Run the dashboard file:
 
 ```r
-shiny::runApp("Deliverable/Dashboard.R")
+shiny::runApp("src")
 ```
 
 The script installs any missing R packages from CRAN before launching the app. I used `shiny`, `readxl`, `dplyr`, `ggplot2`, `DT`, `tidyr`, `scales`, and `shinythemes`.
